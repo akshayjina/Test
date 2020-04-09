@@ -4,7 +4,7 @@
 x = 'global x'
 z = 1
 def test(z):
- #x = 'local x'
+ x = 'local x'
  print(x)
 
 test(1)
